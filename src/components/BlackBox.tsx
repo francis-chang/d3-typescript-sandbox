@@ -26,7 +26,12 @@ class BlackBox extends React.Component {
 
     render(){
         return (
-            <g transform="translate(10, 30)" ref={this.blackBox} />
+            <svg>
+                <g transform="translate(10, 30)" ref={this.blackBox} />
+            </svg>
         )
     }
 }
+
+
+export default BlackBox
