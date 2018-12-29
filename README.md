@@ -4,4 +4,4 @@
 * Fully Integrated components
 * some performance considerations
 
-** inspired by swizec teller **
+__inspired by swizec teller__
