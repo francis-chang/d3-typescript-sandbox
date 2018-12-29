@@ -20,8 +20,11 @@ class BlackBox extends React.Component {
 
         const bottomAxis = axisBottom(scale)
 
-        select(this.blackBox.current)
-            .call(bottomAxis)   
+        const node = this.blackBox.current
+        if(node){
+            select(node)
+                .call(bottomAxis)
+        }
     }
 
     render(){
