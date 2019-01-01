@@ -4,6 +4,8 @@ import { axisBottom } from 'd3-axis'
 import { select } from 'd3-selection'
 import BlackBoxHOC from './BlackBoxHOC'
 
+//BlackBox not working, figure it out as a TODO
+
 const Axis = BlackBoxHOC(function(svgGroup: SVGSVGElement){
     const scale = scaleLinear()
         .domain([0, 10])
